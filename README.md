@@ -22,13 +22,13 @@ This system demonstrates a complete **Hardware-Software Co-design**, achieving s
 * **Adaptive Visualization**: Supports switching between "All Corners" and "Strong Corners" modes instantly.
 
 ## 🎥 Demo
-![Demo Screenshot](Docs/demo.png)
+![Demo Screenshot](https://github.com/ashs810061/FPGA-FAST-Corner-Detector/blob/main/FPGA-FAST-Corner-Detector/Docs/demo.png?raw=true)
 > *A snapshot of the dashboard visualizing real-time detection results. While the display is locked at 20 FPS for human viewing comfort, the backend hardware throughput exceeds 90 FPS.*
 
 ## 🛠️ System Architecture
 The system utilizes a heterogeneous architecture where the ARM CPU handles network communication and VDMA configuration, while the FPGA PL accelerates the image processing pipeline.
 
-![System Architecture](Docs/architecture.png)
+![System Architecture](https://github.com/ashs810061/FPGA-FAST-Corner-Detector/blob/main/FPGA-FAST-Corner-Detector/Docs/architecture.png?raw=true)
 
 ## ⚙️ Hardware Implementation Results
 
@@ -44,7 +44,7 @@ The FAST Corner Detector IP utilizes approximately 36% of the available LUTs, de
 | **FF** (Flip-Flops) | 39,715 | 234,240 | **16.95 %** |
 | **BRAM** (Block RAM) | 6.50 | 144 | **4.51 %** |
 
-![Resource Utilization](Docs/utilization.png)
+![Resource Utilization](https://github.com/ashs810061/FPGA-FAST-Corner-Detector/blob/main/FPGA-FAST-Corner-Detector/Docs/utilization.png?raw=true)
 > *Vivado post-implementation utilization report.*
 
 ### 2. Power Consumption
@@ -56,7 +56,7 @@ Total on-chip power consumption is **3.301 W**. Notably, the FPGA Programmable L
 | **Device Static Power** | **0.430 W** | |
 | **Total On-Chip Power** | **3.301 W** | |
 
-![Power Analysis](Docs/power.png)
+![Power Analysis](https://github.com/ashs810061/FPGA-FAST-Corner-Detector/blob/main/FPGA-FAST-Corner-Detector/Docs/power.png?raw=true)
 > *Vivado power analysis report. The majority of dynamic power is consumed by the PS (ARM CPU), while the custom hardware logic remains highly efficient.*
 
 ## 📊 System Performance Benchmark
@@ -68,7 +68,7 @@ The following benchmark compares the end-to-end execution time of the FAST algor
 | **Software (ARM CPU)** | ~30.22 ms | ~33.0 FPS | 1.0x |
 | **Hardware (FPGA)** | **~11.05 ms** | **~90.5 FPS** | **2.73x** |
 
-![Performance Evidence](FPGA-FAST-Corner-Detector/Docs/performance.png)
+![Performance Evidence](https://github.com/ashs810061/FPGA-FAST-Corner-Detector/blob/main/FPGA-FAST-Corner-Detector/Docs/performance.png?raw=true)
 > *Terminal output demonstrating the hardware processing latency (~11ms) and high throughput.*
 
 ### ⚠️ Performance Note: Connection Interface
