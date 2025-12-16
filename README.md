@@ -98,6 +98,7 @@ The following benchmark compares the end-to-end execution time of the FAST algor
 | **Hardware (FPGA)** | **~11.05 ms** | **~90.5 FPS** | **2.73x** |
 
 ![Performance Evidence](https://github.com/ashs810061/FPGA-FAST-Corner-Detector/blob/main/FPGA-FAST-Corner-Detector/Docs/performance.png?raw=true)
+![Performance Evidence](https://github.com/ashs810061/FPGA-FAST-Corner-Detector/blob/main/FPGA-FAST-Corner-Detector/Docs/performance_cpu.png?raw=true)
 > *Terminal output demonstrating the hardware processing latency (~11ms) and high throughput.*
 
 ### ⚠️ Performance Note: Connection Interface
